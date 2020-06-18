@@ -6,7 +6,7 @@ We use two different types of SegNet architectures: 1) SegNet with 3 reduced dec
 Discription about the folders: \
 train_segnet_3decoders_conv2d: Using SegNet with 2D CNN. \
 train_segnet_3decoders_conv3d_temp: Using SegNet with 3D CNN. \
-prediction codes: To predict masks for a given video F2_400.avi. \ 
+prediction codes: To predict masks for a given video F2_400.avi. 
 The required trained models can be downloaded in below google drive links: \
 SegNet with 2D CNN: https://drive.google.com/file/d/1SBFOm2ULVJW7cmdpeC-85fl3bWU4wyio/view?usp=sharing \
 SegNet with 3D CNN: https://drive.google.com/file/d/1x6EW6AEMRsw-ZOMsYsYgNPtpN7ZAKVq_/view?usp=sharing \
