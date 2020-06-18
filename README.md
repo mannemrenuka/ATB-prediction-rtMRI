@@ -2,7 +2,7 @@
 The repository contains the traning and evaluation codes for air-tissue boundary (ATB) segmentation in real time magnetic resonance imaging (rtMRI) video.\
 At first, SegNet is used to semantically segment the rtMRI image into 3 masks which correspond to the 3 ATBs. \
 Then, the 3 masks are used to obtain the ATBs using contour prediction approach. \
-We use two different types of SegNet architectures: \1) SegNet with 3 reduced decoders with 2D convolutional layers. \2) SegNet with 3 reduced decoders with 3D convolutional layers which uses temporal information of the rtMRI video. \
+We use two different types of SegNet architectures: 1) SegNet with 3 reduced decoders with 2D convolutional layers. 2) SegNet with 3 reduced decoders with 3D convolutional layers which uses temporal information of the rtMRI video. \
 Discription about the folders: \
 train_segnet_3decoders_conv2d: Using SegNet with 2D CNN. \
 train_segnet_3decoders_conv3d_temp: Using SegNet with 3D CNN. \
