@@ -6,7 +6,8 @@ We use two different types of SegNet architectures: 1) SegNet with 3 reduced dec
 Discription about the folders: \
 train_segnet_3decoders_conv2d: Using SegNet with 2D CNN. \
 train_segnet_3decoders_conv3d_temp: Using SegNet with 3D CNN. \
-prediction codes: To predict masks for a given video F2_400.avi. 
+prediction codes: To predict masks for a given video F2_400.avi.
+
 The required trained models can be downloaded in below google drive links: \
 SegNet with 2D CNN: https://drive.google.com/file/d/1SBFOm2ULVJW7cmdpeC-85fl3bWU4wyio/view?usp=sharing \
 SegNet with 3D CNN: https://drive.google.com/file/d/1x6EW6AEMRsw-ZOMsYsYgNPtpN7ZAKVq_/view?usp=sharing \
@@ -26,6 +27,6 @@ Unseen subejct condition: \
     Leave one subejct out experimental setup - 10 fold cross validation setup as there are 10 subjects. \
     Training : 9 subjects x 11 videos  = 99 videos \
     Validation : 0.1 percent of training data is considered to be validation data \
-    Testing :  1 unseen subject x 11videos = 11 videos \
+    Testing :  1 unseen subject x 11videos = 11 videos 
 
 
